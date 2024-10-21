@@ -1,23 +1,56 @@
 <script>
-	import { SquareChevronRight } from 'lucide-svelte';
+	// import { SquareChevronRight } from 'lucide-svelte';
+	let selected = 'Home';
 </script>
 
-<nav class="flex justify-between items-center h-20 py-1 px-24">
-	<div class="flex items-center gap-4 text-white">
-		<SquareChevronRight class="w-10 h-10" />
-		<h1 class="text-3xl font-header cursor typewriter-animation">Ali Bazizi</h1>
-	</div>
-	<div class="flex justify-between items-center gap-8">
-		<a href="/" class="text-gray-400">Home</a>
-		<a href="/" class="text-gray-400">About</a>
-		<a href="/" class="text-gray-400">Tech</a>
-		<a href="/" class="text-gray-400">Contact</a>
-		<a href="/" class="text-slate font-bold bg-white py-3 px-8">Previous Projects</a>
+<nav class="flex justify-center items-center md:h-20 py-1 md:px-24 h-16 sticky top-0 z-50 bg-dark">
+	<div class="flex justify-around md:text-xl text-sm items-center md:w-1/2 md:gap-8 w-full gap-2">
+		<a
+			href="#hero"
+			on:click={() => {
+				selected = 'Home';
+			}}
+			class="links {selected == 'Home' && 'active'}">Home</a
+		>
+		<a
+			href="#education"
+			on:click={() => {
+				selected = 'Eduction';
+			}}
+			class="links {selected == 'Eduction' && 'active'}">Eduction</a
+		>
+		<a
+			href="#techstack"
+			on:click={() => {
+				selected = 'Tech';
+			}}
+			class="links {selected == 'Tech' && 'active'}">Tech Stack</a
+		>
+		<a
+			href="#contact"
+			on:click={() => {
+				selected = 'Contact';
+			}}
+			class="links {selected == 'Contact' && 'active'}">Contact</a
+		>
 	</div>
 </nav>
 
-<style>
-	.cursor {
+<style lang="postcss">
+	.links {
+		@apply text-gray-400;
+	}
+	.links:hover,
+	.active {
+		@apply bg-gradient-to-l;
+		@apply font-semibold;
+		@apply from-emerald;
+		@apply via-lime;
+		@apply to-orange;
+		@apply bg-clip-text;
+		@apply text-transparent;
+	}
+	/* .cursor {
 		border-right: 2px solid rgba(255, 255, 255, 0.75);
 	}
 	.typewriter-animation {
@@ -30,5 +63,5 @@
 		to {
 			border-right-color: transparent;
 		}
-	}
+	} */
 </style>

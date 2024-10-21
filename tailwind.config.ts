@@ -19,6 +19,11 @@ export default {
 			fontFamily: {
 				header: ['Anonymous Pro', 'sans-serif'],
 				sans: ['Golos Text', 'sans-serif']
+			},
+			dropShadow: {
+				glow: {
+					emrald: ['0 0px 20px #207A49', '0 0px 65px #207A49']
+				}
 			}
 		}
 	},
