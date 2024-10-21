@@ -95,6 +95,7 @@
 
 <section
 	class="flex md:hidden flex-col justify-between gap-8 items-center h-fit border-y-[1px] border-slate py-8 px-8 {$$restProps.class}"
+	id="education"
 >
 	<div class="flex flex-col justify-center items-center p-6 w-full bg-emerald">
 		<h1 class="text-3xl font-header font-semibold text-dark">Education</h1>
