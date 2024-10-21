@@ -1,18 +1,20 @@
 <script>
 	import { onDestroy } from 'svelte';
+	import { browser } from '$app/environment';
+	let width = 1000;
 
-	let width = window.innerWidth;
-
-	function handleResize() {
+	if (browser) {
 		width = window.innerWidth;
+		const handleResize = () => {
+			width = window.innerWidth;
+		};
+		window.addEventListener('resize', handleResize);
+		onDestroy(() => {
+			window.removeEventListener('resize', handleResize);
+		});
 	}
 
-	window.addEventListener('resize', handleResize);
-
 	// Remove event listener when the component is destroyed
-	onDestroy(() => {
-		window.removeEventListener('resize', handleResize);
-	});
 </script>
 
 {#if width > 768}
