@@ -1,6 +1,7 @@
 <script>
 	import { FileUser, ChevronsDown, MapPinned } from 'lucide-svelte';
 	import abazizi from '$lib/assets/abazizi.webp';
+	import resume from '$lib/assets/abazizi.pdf';
 </script>
 
 <section
@@ -21,7 +22,9 @@
 		</p>
 		<div class="flex gap-4 pb-8">
 			<a
-				href="/"
+				href={resume}
+				download="ali bazizi resume.pdf"
+				target="_blank"
 				class="text-amber-900 font-bold bg-orangevariant flex justify-center items-center py-3 px-8"
 				>Download Resume</a
 			>
