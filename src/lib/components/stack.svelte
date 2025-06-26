@@ -104,7 +104,7 @@
 			<div class="w-full border-2 flex flex-col gap-2 p-4 border-darkvariant rounded-md xs:text-xs">
 				<h2 class="text-xl flex gap-2 items-center text-header font-semibold">Industries</h2>
 				<p>
-					The majority of the projects I have worked on we're management systems for various
+					The majority of the projects I have worked on were management systems for various
 					industries, from sales, project management, finance, etc. The products I took part on were
 					mostly web applications, offering a platform for the clients to manage every part of thier
 					workflow.
@@ -112,7 +112,7 @@
 			</div>
 			<div class="w-full border-2 flex flex-col gap-2 p-4 border-darkvariant rounded-md xs:text-xs">
 				<h2 class="text-xl flex gap-2 items-center text-header font-semibold">
-					Costum work and adaptability
+					Custom work and adaptability
 				</h2>
 				<p>
 					In my time working in different projects, I have been able to adapt to different

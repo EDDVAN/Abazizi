@@ -72,8 +72,7 @@
 								class="absolute h-full w-full flex flex-col justify-center items-center
 						 bg-pink top-full left-0 text-left text-dark font-semibold p-2 duration-300 ease-in-out"
 							>
-								Currently continuing my education in a one year program in software engineering at
-								ENSA Fes
+								I continued my education in a one year program in software engineering at ENSA Fes
 							</div>
 						</div>
 					</div>
@@ -172,7 +171,7 @@
 				class="absolute h-full w-full flex flex-col justify-center items-center
                              bg-pink top-full left-0 text-left text-dark font-semibold p-2 duration-300 ease-in-out"
 			>
-				Currently continuing my education in a one year program in software engineering at ENSA Fes
+				I continued my education in a one year program in software engineering at ENSA Fes
 			</div>
 		</div>
 		<div
