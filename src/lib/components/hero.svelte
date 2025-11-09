@@ -17,7 +17,7 @@
 		</h4>
 
 		<p class="text-2xl font-sans text-slate pb-8">
-			A 23 year old Full Stack Developer, I specialize in web development, over the past two years I
+			A 24 year old Full Stack Developer, I specialize in web development, over the past three years I
 			worked on a variety of SaaS products, catering to our clients every need.
 		</p>
 		<div class="flex gap-4 pb-8">
